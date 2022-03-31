@@ -18,7 +18,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="vDevs" />
+        <SEO title="JT - Software as a Service" />
         <Banner />
         <KeyFeature />
         <ServiceSection />

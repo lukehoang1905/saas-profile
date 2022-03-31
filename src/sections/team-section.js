@@ -16,9 +16,9 @@ const data = [
   {
     id: 1,
     imgSrc: Member1,
-    altText: "Saimon Harmer",
-    title: "Saimon Harmer",
-    designation: "CEO and Founder",
+    altText: "Tuan Hoang",
+    title: "Tuan Hoang",
+    designation: "Project Lead",
     socialProfile: [
       {
         id: 1,
