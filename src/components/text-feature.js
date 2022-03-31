@@ -17,6 +17,18 @@ export default function TextFeature({
         <Heading as="h2" sx={styles.wrapper.title}>
           {title}
         </Heading>
+        {description && (
+          <Text as="p" className="description" sx={styles.description}>
+            {description}
+          </Text>
+        )}
+        {btnName && (
+          <Link href={btnURL} variant="default">
+            <Button variant="primary" aria-label="Get Started">
+              {btnName}
+            </Button>
+          </Link>
+        )}
       </Box>
     </Box>
   );
