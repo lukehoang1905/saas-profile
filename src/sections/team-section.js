@@ -3,7 +3,7 @@ import { jsx } from "theme-ui";
 import { Container, Grid } from "theme-ui";
 import SectionHeader from "components/section-header";
 import TeamCard from "components/team-card";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaGithubAlt } from "react-icons/fa";
 
 import Member1 from "assets/team/member-1.png";
 import Member2 from "assets/team/member-2.png";
@@ -18,7 +18,7 @@ const data = [
     imgSrc: Member1,
     altText: "Tuan Hoang",
     title: "Tuan Hoang",
-    designation: "Project Lead",
+    designation: "CEO / Founder ",
     socialProfile: [
       {
         id: 1,
@@ -30,22 +30,22 @@ const data = [
         id: 2,
         name: "twitter",
         path: "#",
-        icon: <FaTwitter />,
+        icon: <FaLinkedinIn />,
       },
       {
         id: 3,
         name: "instagram",
         path: "#",
-        icon: <FaInstagram />,
+        icon: <FaGithubAlt />,
       },
     ],
   },
   {
     id: 2,
     imgSrc: Member2,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
-    designation: "Founder",
+    altText: "Pham Hieu Phuong",
+    title: "Pham Hieu Phuong",
+    designation: "Business Director",
     socialProfile: [
       {
         id: 1,
@@ -57,13 +57,13 @@ const data = [
         id: 2,
         name: "twitter",
         path: "#",
-        icon: <FaTwitter />,
+        icon: <FaLinkedinIn />,
       },
       {
         id: 3,
         name: "instagram",
         path: "#",
-        icon: <FaInstagram />,
+        icon: <FaGithubAlt />,
       },
     ],
   },
@@ -84,13 +84,13 @@ const data = [
         id: 2,
         name: "twitter",
         path: "#",
-        icon: <FaTwitter />,
+        icon: <FaLinkedinIn />,
       },
       {
         id: 3,
         name: "instagram",
         path: "#",
-        icon: <FaInstagram />,
+        icon: <FaGithubAlt />,
       },
     ],
   },
@@ -111,13 +111,13 @@ const data = [
         id: 2,
         name: "twitter",
         path: "#",
-        icon: <FaTwitter />,
+        icon: <FaLinkedinIn />,
       },
       {
         id: 3,
         name: "instagram",
         path: "#",
-        icon: <FaInstagram />,
+        icon: <FaGithubAlt />,
       },
     ],
   },
@@ -138,13 +138,13 @@ const data = [
         id: 2,
         name: "twitter",
         path: "#",
-        icon: <FaTwitter />,
+        icon: <FaLinkedinIn />,
       },
       {
         id: 3,
         name: "instagram",
         path: "#",
-        icon: <FaInstagram />,
+        icon: <FaGithubAlt />,
       },
     ],
   },
@@ -165,13 +165,13 @@ const data = [
         id: 2,
         name: "twitter",
         path: "#",
-        icon: <FaTwitter />,
+        icon: <FaLinkedinIn />,
       },
       {
         id: 3,
         name: "instagram",
         path: "#",
-        icon: <FaInstagram />,
+        icon: <FaGithubAlt />,
       },
     ],
   },

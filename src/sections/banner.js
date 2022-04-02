@@ -2,8 +2,8 @@
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
 import BannerImg from "assets/banner-thumb.png";
-import ShapeLeft from "assets/shape-left.png";
-import ShapeRight from "assets/shape-right.png";
+// import ShapeLeft from "assets/shape-left.png";
+// import ShapeRight from "assets/shape-right.png";
 
 export default function Banner() {
   return (
@@ -11,12 +11,12 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Professional Services for Digital Solution
+            Professional Solutions for web, mobile & desktop
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Are you looking for a digital solution for your bussiness?
+            Are you looking for a digital solution your bussiness?
             <br />
-            This is the place for all websites and applications services
+            This is the place for premium software as services
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>
@@ -43,7 +43,7 @@ const styles = {
       height: "100%",
       width: "100%",
       zIndex: -1,
-      backgroundImage: `url(${ShapeLeft})`,
+      // backgroundImage: `url(${ShapeLeft})`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: "bottom left",
       backgroundSize: "36%",
@@ -56,7 +56,7 @@ const styles = {
       height: "100%",
       width: "100%",
       zIndex: -1,
-      backgroundImage: `url(${ShapeRight})`,
+      // backgroundImage: `url(${ShapeRight})`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: "bottom right",
       backgroundSize: "32%",

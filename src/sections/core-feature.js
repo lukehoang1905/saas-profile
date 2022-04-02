@@ -7,9 +7,9 @@ import shapePattern from "assets/shape-pattern2.png";
 
 const data = {
   subTitle: "Core features",
-  title: "Web and mobile applications",
+  title: "Mobile applications",
   description:
-    "Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.",
+    "Silky smooth mobile experience with morden design made with care",
   btnName: "Get Started",
   btnURL: "#",
 };
@@ -29,9 +29,9 @@ export default function CoreFeature() {
         </Box>
         <Box sx={styles.thumbnail}>
           <Image src={FeatureThumb} alt="Thumbnail" />
-          <Box sx={styles.shapeBox}>
+          {/* <Box sx={styles.shapeBox}>
             <Image src={shapePattern} alt="Shape" />
-          </Box>
+          </Box> */}
         </Box>
       </Container>
     </section>
