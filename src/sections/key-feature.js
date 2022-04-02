@@ -3,41 +3,80 @@ import { jsx } from "theme-ui";
 import { Container, Grid } from "theme-ui";
 import SectionHeader from "../components/section-header";
 import FeatureCardColumn from "components/feature-card-column.js";
-import Performance from "assets/key-feature/performance.svg";
-import Partnership from "assets/key-feature/partnership.svg";
-import Subscription from "assets/key-feature/subscription.svg";
-import Support from "assets/key-feature/support.svg";
+import NextLogo from "assets/key-feature/next-js.svg";
+import ReactLogo from "assets/key-feature/react.svg";
+import GatsbyLogo from "assets/key-feature/gatsby.svg";
+import FigmaLogo from "assets/key-feature/figma2.svg";
+import GoogleALogo from "assets/key-feature/ga.svg";
+import MailChimpLogo from "assets/key-feature/mailchimp.svg";
+import SendGLogo from "assets/key-feature/sendgrid.svg";
+import AWSLogo from "assets/key-feature/microsoft-azure-logo.jpeg";
 
 const data = [
   {
     id: 1,
-    imgSrc: Performance,
-    altText: "Fast Performance",
-    title: "Fast Performance",
+    imgSrc: NextLogo,
+    altText: "Fast NextLogo",
+    title: "Fast NextLogo",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 2,
-    imgSrc: Partnership,
-    altText: "Partnership deal",
-    title: "Partnership deal",
+    imgSrc: ReactLogo,
+    altText: "ReactLogo deal",
+    title: "ReactLogo deal",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
     id: 3,
-    imgSrc: Subscription,
-    altText: "Pro Subscription",
-    title: "Pro Subscription",
+    imgSrc: GatsbyLogo,
+    altText: "Pro GatsbyLogo",
+    title: "Pro GatsbyLogo",
+    text:
+      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  },
+
+  {
+    id: 4,
+    imgSrc: SendGLogo,
+    altText: "Customer SendGLogo",
+    title: "Customer SendGLogo",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
   {
-    id: 4,
-    imgSrc: Support,
-    altText: "Customer Support",
-    title: "Customer Support",
+    id: 8,
+    imgSrc: FigmaLogo,
+    altText: "Customer FigmaLogo",
+    title: "Customer FigmaLogo",
+    text:
+      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  },
+  {
+    id: 6,
+    imgSrc: GoogleALogo,
+    altText: "Customer GoogleALogo",
+    title: "Customer GoogleALogo",
+    text:
+      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  },
+  ,
+  {
+    id: 7,
+    imgSrc: AWSLogo,
+    altText: "Customer AWSLogo",
+    title: "Customer AWSLogo",
+    text:
+      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+  },
+
+  {
+    id: 5,
+    imgSrc: MailChimpLogo,
+    altText: "Customer MailChimpLogo",
+    title: "Customer MailChimpLogo",
     text:
       "Get your blood tests delivered at home collect a sample from the your blood tests.",
   },
@@ -49,7 +88,7 @@ export default function KeyFeature() {
       <Container>
         <SectionHeader
           slogan={"What do we offer?"}
-          title={"Meet our key services"}
+          title={"Latest advance technology"}
         />
         <Grid sx={styles.grid}>
           {data.map((item, i) => (
@@ -69,16 +108,16 @@ export default function KeyFeature() {
 
 const styles = {
   grid: {
-    width: ["100%", "80%", "100%"],
+    width: ["80%", "60%", "80%"],
     mx: "auto",
     gridGap: [
-      "35px 0",
+      "60px 0",
       null,
-      "40px 40px",
-      "50px 60px",
+      "70px 40px",
+      "80px 60px",
       "30px",
-      "50px 40px",
-      "55px 90px",
+      "80px 40px",
+      "85px 90px",
     ],
     gridTemplateColumns: [
       "repeat(1,1fr)",

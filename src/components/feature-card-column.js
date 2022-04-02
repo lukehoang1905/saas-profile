@@ -10,10 +10,10 @@ export default function FeatureCardColumn({
   return (
     <Box sx={styles.card}>
       <Image src={src} alt={altText} />
-      <Box sx={styles.wrapper}>
+      {/* <Box sx={styles.wrapper}>
         <Heading sx={styles.wrapper.title}>{title}</Heading>
         <Text sx={styles.wrapper.subTitle}>{text}</Text>
-      </Box>
+      </Box> */}
     </Box>
   );
 }

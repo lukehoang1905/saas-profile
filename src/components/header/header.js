@@ -3,7 +3,7 @@ import { jsx, Container, Flex, Button } from "theme-ui";
 import { keyframes } from "@emotion/core";
 import { Link } from "react-scroll";
 import Logo from "components/logo";
-import LogoDark from "assets/Logo-KAP-Original-copy-55x72.png";
+import LogoDark from "assets/jtsas.png";
 import MobileDrawer from "./mobile-drawer";
 import menuItems from "./header.data";
 

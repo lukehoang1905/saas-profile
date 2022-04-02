@@ -1,48 +1,35 @@
-// --fire-opal: #ee6055ff;
-// --cg-blue: #247ba0ff;
-// --fluorescent-blue: #21ececff;
-// --white: #ffffffff;
-// --eerie-black: #1d1d1bff;
-const myColor = {
-  primary: "#7180B9", // primary button and link color
-  secondary: "#171738", // secondary color - can be used for hover states
-
-  text: "#171738", // body color and primary color
-  text_secondary: "#606c38", // secondary body color
-
-  heading: "#171738", // primary heading color
-  heading_secondary: "#dda15e", // heading color
-
-  background: "#FFFFFF", // body background color
-  background_secondary: "#faedcd", // secondary background color
-
-  border_color: "#7180B9", // border color
-
-  yellow: "#faedcd", // border color
-
-  muted: "#E4E4E4", // muted color
-
-  accent: "#171738", // a contrast color for emphasizing UI
-
-  // highlight a background color for highlighting text
+const ogColor = {
+  // text: "#343D48", // body color and primary color
+  // text_secondary: "#02073E", // secondary body color
+  // heading: "#0F2137", // primary heading color
+  // heading_secondary: "#0F2137", // heading color
+  // background: "#FFFFFF", // body background color
+  // background_secondary: "#F9FBFD", // secondary background color
+  // border_color: "#E5ECF4", // border color
+  // yellow: "#FFA740", // border color
+  // primary: "#EA3A60", // primary button and link color
+  // secondary: "#2563FF", // secondary color - can be used for hover states
+  // muted: "#E4E4E4", // muted color
+  // accent: "#609", // a contrast color for emphasizing UI
 };
 
 export default {
   // example colors with dark mode
   colors: {
-    // text: "#343D48", // body color and primary color
-    // text_secondary: "#02073E", // secondary body color
-    // heading: "#0F2137", // primary heading color
-    // heading_secondary: "#0F2137", // heading color
-    // background: "#FFFFFF", // body background color
-    // background_secondary: "#F9FBFD", // secondary background color
-    // border_color: "#E5ECF4", // border color
-    // yellow: "#FFA740", // border color
-    // primary: "#EA3A60", // primary button and link color
-    // secondary: "#2563FF", // secondary color - can be used for hover states
-    // muted: "#E4E4E4", // muted color
-    // accent: "#609", // a contrast color for emphasizing UI
-    ...myColor,
+    primary: "#DDA05E", // primary button and link color
+    secondary: "#98E2C6", // secondary color - can be used for hover states
+    text: "#343D48", // body color and primary color
+    text_secondary: "#02073E", // secondary body color
+    heading: "#0F2137", // primary heading color
+    heading_secondary: "#0F2137", // heading color
+    background: "#FFFFFF", // body background color
+    background_secondary: "#faedcd", // secondary background color
+    border_color: "#E5ECF4", // border color
+    yellow: "#DB5ABA", // border color
+    muted: "#E4E4E4", // muted color
+    accent: "#98E2C6", // a contrast color for emphasizing UI
+    // highlight a background color for highlighting text
+
     // highlight	a background color for highlighting text
     modes: {
       dark: {
@@ -258,6 +245,7 @@ export default {
     },
     logo: {
       display: "flex",
+      width: "200px",
     },
   },
   images: {
@@ -292,7 +280,7 @@ export default {
       color: "white",
       bg: "primary",
       "&:hover": {
-        boxShadow: "#171738 0px 9px 20px -5px",
+        boxShadow: "#A77947 0px 9px 20px -5px",
       },
     },
     whiteButton: {
@@ -300,7 +288,7 @@ export default {
       color: "heading_secondary",
       bg: "white",
       "&:hover": {
-        boxShadow: "#171738 0px 12px 24px -10px",
+        boxShadow: "#A77947 0px 12px 24px -10px",
       },
     },
     secondary: {

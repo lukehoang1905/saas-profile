@@ -16,13 +16,13 @@ import ModalVideo from "react-modal-video";
 import { IoIosPlay } from "react-icons/io";
 
 import ServiceThumb from "assets/service-thumb.png";
-import shapePattern from "assets/shape-pattern1.png";
+// import shapePattern from "assets/shape-pattern1.png";
 
 import Smart from "assets/services/smart.svg";
 import Secure from "assets/services/secure.svg";
 
 const data = {
-  subTitle: "our services",
+  subTitle: "Our services",
   title: "Business Goals Achieved with Design",
   features: [
     {
@@ -31,15 +31,14 @@ const data = {
       altText: "Smart Features",
       title: "Smart Features",
       text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+        "From business idea to smart features that enhance user experiences",
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: "Secure Contents",
-      title: "Secure Contents",
-      text:
-        "Get your blood tests delivered at let home collect sample from the victory of the managements. your blood tests.",
+      altText: "State of the art design",
+      title: "Clean Design",
+      text: "Design that resonate with your business and targeted market",
     },
   ],
 };
@@ -130,7 +129,8 @@ const styles = {
     "> img": {
       position: "relative",
       zIndex: 1,
-      height: [310, "auto"],
+      // height: [310, "auto"],
+      width: 1000,
     },
   },
   shapeBox: {

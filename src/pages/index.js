@@ -21,9 +21,9 @@ export default function IndexPage() {
         <SEO title="JT - Software as a Service" />
         <Banner />
         <KeyFeature />
-        <ServiceSection />
-        <Feature />
         <CoreFeature />
+        <Feature />
+        <ServiceSection />
         <WorkFlow />
         <Package />
         <TeamSection />

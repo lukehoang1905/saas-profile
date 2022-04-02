@@ -3,7 +3,7 @@ import { jsx, Container, Box, Image } from "theme-ui";
 import TextFeature from "components/text-feature";
 
 import FeatureThumb from "assets/core-feature.png";
-import shapePattern from "assets/shape-pattern2.png";
+// import shapePattern from "assets/shape-pattern2.png";
 
 const data = {
   subTitle: "Core features",
@@ -29,9 +29,9 @@ export default function CoreFeature() {
         </Box>
         <Box sx={styles.thumbnail}>
           <Image src={FeatureThumb} alt="Thumbnail" />
-          {/* <Box sx={styles.shapeBox}>
-            <Image src={shapePattern} alt="Shape" />
-          </Box> */}
+          <Box sx={styles.shapeBox}>
+            {/* <Image src={shapePattern} alt="Shape" /> */}
+          </Box>
         </Box>
       </Container>
     </section>
@@ -65,7 +65,8 @@ const styles = {
     "> img": {
       position: "relative",
       zIndex: 1,
-      height: [310, "auto"],
+      // height: [310, "auto"],
+      width: 900,
     },
   },
   shapeBox: {

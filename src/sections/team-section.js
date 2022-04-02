@@ -18,7 +18,7 @@ const data = [
     imgSrc: Member1,
     altText: "Tuan Hoang",
     title: "Tuan Hoang",
-    designation: "CEO / Founder ",
+    designation: "Web Developer",
     socialProfile: [
       {
         id: 1,
@@ -70,8 +70,8 @@ const data = [
   {
     id: 3,
     imgSrc: Member3,
-    altText: "Aaron Nunez",
-    title: "Aaron Nunez",
+    altText: "Joe Le",
+    title: "Joe Le",
     designation: "Web Designer",
     socialProfile: [
       {
@@ -124,9 +124,9 @@ const data = [
   {
     id: 5,
     imgSrc: Member5,
-    altText: "Saimon Harmer",
-    title: "Saimon Harmer",
-    designation: "CEO and Founder",
+    altText: "Mark Rubert",
+    title: "Mark Rubert",
+    designation: "Software Engineer",
     socialProfile: [
       {
         id: 1,

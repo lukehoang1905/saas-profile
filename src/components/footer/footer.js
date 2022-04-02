@@ -2,7 +2,7 @@
 import { jsx, Box, Container, Image, Text } from "theme-ui";
 import { Link } from "components/link";
 import data from "./footer.data";
-import FooterLogo from "assets/Logo-KAP-Original-copy-55x72.png";
+import FooterLogo from "assets/jtsas.png";
 
 export default function Footer() {
   return (
