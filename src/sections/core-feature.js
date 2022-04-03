@@ -7,9 +7,9 @@ import FeatureThumb from "assets/core-feature.png";
 
 const data = {
   subTitle: "Core features",
-  title: "Mobile applications",
+  title: "Modern UI/UX design",
   description:
-    "Silky smooth mobile experience with morden design made with care",
+    "Silky smooth responsive experience for devices all shapes and sizes made with care. Tell vivid branding story and image through modern design ",
   btnName: "Get Started",
   btnURL: "#",
 };

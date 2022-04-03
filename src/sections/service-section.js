@@ -23,22 +23,23 @@ import Secure from "assets/services/secure.svg";
 
 const data = {
   subTitle: "Our services",
-  title: "Business Goals Achieved with Design",
+  title: "Tailored business system ",
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: "Smart Features",
-      title: "Smart Features",
+      altText: "Unique System",
+      title: "Unique System",
       text:
-        "From business idea to smart features that enhance user experiences",
+        "Your business are unique so does your system and tool should be. We are specialized in create customize business tools for automation, management and report that guarantee perfect fit to your business requirements",
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: "State of the art design",
-      title: "Clean Design",
-      text: "Design that resonate with your business and targeted market",
+      altText: "Training",
+      title: "Digital Transformation",
+      text:
+        "Get your team up-to-date with the technology that excel business growth with us. Our software engineers are also reputable instructors with many year of experiences teaching non-tech to expert. ",
     },
   ],
 };
@@ -109,7 +110,7 @@ const playPluse = keyframes`
 `;
 
 const styles = {
-  coreFeature: {
+  services: {
     py: [0, null, null, 2, null, 7],
     position: "relative",
   },

@@ -15,23 +15,23 @@ const data = [
     altText: "Fast Performance",
     title: "Fast Performance",
     text:
-      "Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.",
+      "We understand that product's performance speed is the main drive for meaningful user experiences on any applications. Our products are make with high-level optimization technique and tools to ensure lightning fast performance",
   },
   {
     id: 2,
-    imgSrc: Partnership,
-    altText: "Pro Subscription",
-    title: "Pro Subscription",
+    imgSrc: Subscription,
+    altText: "Scalability Readines",
+    title: "Scalability Readines",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "Your success is also ours. Every products that we are shipping are embeded with the same principle of scalability readiness. We are building tools that are upgradable into the success of you.",
   },
   {
     id: 3,
-    imgSrc: Subscription,
-    altText: "Partnership deal",
-    title: "Partnership deal",
+    imgSrc: Partnership,
+    altText: "World-class Professionalism",
+    title: "World-class Professionalism",
     text:
-      "Let’s just get this out of the way - there will always be a kit version of Edu flow. Paid subscriptions allow us to continue helping learners around the world.",
+      "We are commit to ensure the highest level of data privacy, transparacy and security during and after all business engagement ",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: "Customer Support",
     title: "Customer Support",
     text:
-      "We believe it’s important for everyone to have access to software – especially when it comes to digital learning be navigated by keyboard and screen readers.",
+      "We believe that clients are lifelong partners. Whether it is intergrating and update a new feature or training for the current tool, our technical team are experiences in deliver the support you need.",
   },
 ];
 

@@ -10,27 +10,27 @@ import ArrowEven from "assets/arrowEven.svg";
 const data = [
   {
     id: 1,
-    title: "Set disbursement Instructions",
+    title: "Business analysis",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "Our journey will start by an analysis on your current business or requirement to indentify the core problem thus building the innitial plan for solutions.",
   },
   {
     id: 2,
-    title: "Assembly retrieves funds from your account",
+    title: "Solution planning",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "The project will be break down into smaller meaningful modules which could develop - test - deploy and deliver in short period",
   },
   {
     id: 3,
-    title: "Assembly initiates disbursement",
+    title: "AGILE development ",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "We employ  development process to ensure that each module shipped are fast and usable. Thus making instant impact to your business ",
   },
   {
     id: 4,
-    title: "Customer receives funds payment",
+    title: "Ownership transfer",
     text:
-      "Get your blood tests delivered at home collect a sample from the your blood tests.",
+      "We finalize our engagement by transfering ownership to the aggreed deliverables. Though, this is the final , you will have ongoing support from our team beyond the product delivering",
   },
 ];
 
@@ -38,7 +38,7 @@ export default function WorkFlow() {
   return (
     <section sx={styles.workflow}>
       <Container>
-        <SectionHeader slogan="Procedure" title="our process" isWhite={true} />
+        <SectionHeader slogan="Procedure" title="Our Process" isWhite={true} />
         <Grid sx={styles.grid}>
           {data.map((item) => (
             <Box sx={styles.card} key={item.id}>
@@ -63,7 +63,7 @@ const styles = {
     backgroundPosition: "center center",
     backgroundSize: "cover",
     position: "relative",
-    py: [8, null, 9, null, null, 10],
+    py: [4, null, 5, null, null, 6],
   },
   grid: {
     mb: -1,

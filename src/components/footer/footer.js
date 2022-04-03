@@ -25,7 +25,7 @@ export default function Footer() {
             </nav>
           </Box>
           <Text sx={styles.footer.copyright}>
-            Coppyright by {new Date().getFullYear()} KAP
+            Coppyright by {new Date().getFullYear()} jtsas
           </Text>
         </Box>
       </Container>
