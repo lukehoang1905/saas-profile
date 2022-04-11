@@ -14,9 +14,9 @@ export default function Banner() {
             Professional Solutions for web, mobile & desktop
           </Heading>
           <Text as="p" variant="heroSecondary">
-            Are you looking for a digital solution your bussiness?
+            Are you looking to transform your bussiness digitally?
             <br />
-            This is the place for premium software as services
+            This is the place for premium software solutions
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>

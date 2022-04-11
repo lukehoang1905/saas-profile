@@ -12,103 +12,109 @@ const packages = {
   monthly: [
     {
       id: 1,
-      name: "Free Plan",
-      description: "For Small teams or office",
-      buttonText: "Start free trail",
-      priceWithUnit: "$0",
+      name: "Profile page",
+      description: "for new start-up",
+      buttonText: "Get quote now",
+      priceWithUnit: "$299",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder",
+          text: "Responsive webpage",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Infomative sections ",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
+          text: "Content management support",
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCloseCircle />,
-          text: "eCommerce Store ",
+          text: "Free hosting",
           isAvailable: true,
         },
       ],
     },
     {
       id: 2,
-      name: "Business king",
-      description: "For Enterprise business",
-      priceWithUnit: "$15",
-      buttonText: "Create account",
-      anotherOption: "Or Start 14 Days trail",
+      name: "Profile page +",
+      description: "for small to medium business",
+      priceWithUnit: "$999",
+      buttonText: "Get quote now",
+      anotherOption: "*for the first 3 years",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder",
+          text: "Profile page",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Design Customization",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
+          text: "Content upload",
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: "eCommerce Store ",
+          text: "Free hosting*",
           isAvailable: true,
         },
       ],
     },
     {
       id: 3,
-      header: "Suggested",
+      header: "Best seller",
       headerIcon: <IoIosCheckmarkCircle />,
-      name: "Pro Master",
-      description: "For pro level developers",
-      priceWithUnit: "$24",
+      name: "Pro e-Commerce",
+      description: "For highest demand",
+      priceWithUnit: "contact",
       buttonText: "Create account",
-      anotherOption: "Or Start 14 Days trail",
+      anotherOption: "",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder",
+          text: "Profile page +",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Content management tools",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
+          text: "Customer login",
           isAvailable: true,
         },
         {
           id: 4,
           icon: <IoIosCheckmarkCircle />,
-          text: "eCommerce Store ",
+          text: "Interactive chat",
+          isAvailable: true,
+        },
+        {
+          id: 5,
+          icon: <IoIosCheckmarkCircle />,
+          text: "Free hosting",
           isAvailable: true,
         },
       ],
@@ -116,104 +122,91 @@ const packages = {
   ],
   annual: [
     {
-      id: 1,
-      name: "Free Plan",
-      description: "For Small teams or office",
-      buttonText: "Start free trail",
+      id: 2,
+      name: "Automation Software",
+      description: "for increasing productivity ",
       priceWithUnit: "$0",
+      buttonText: "Get quote now",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
+          text: "Customize design",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder",
+          text: "Dedicated to your business problem",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
-          isAvailable: true,
-        },
-        {
-          id: 4,
-          icon: <IoIosCloseCircle />,
-          text: "eCommerce Store ",
+          text: "Technical support",
           isAvailable: true,
         },
       ],
     },
     {
-      id: 2,
-      name: "Business king",
-      description: "For Enterprise business",
-      priceWithUnit: "$25",
-      buttonText: "Create account",
-      anotherOption: "Or Start 10 Days trail",
+      id: 1,
+      header: "Best seller",
+      headerIcon: <IoIosCheckmarkCircle />,
+      name: "Add-on",
+      description: "for adding feature to existing solutions",
+      buttonText: "Get quote now",
+      priceWithUnit: "$0",
       points: [
         {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "eCommerce Store",
+          text: "Customize design",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
+          text: "Adapt existing solution business logic",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
-          isAvailable: true,
-        },
-        {
-          id: 4,
-          icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder ",
+          text: "Technical training ",
           isAvailable: true,
         },
       ],
     },
     {
       id: 3,
-      header: "Suggested",
-      headerIcon: <IoIosCheckmarkCircle />,
-      name: "Pro Master",
-      description: "For pro level developers",
+      name: "Platform builder",
+      description: "for building a full pledge platform",
       priceWithUnit: "$39",
-      buttonText: "Create account",
+      buttonText: "Get quote now",
       anotherOption: "Or Start 10 Days trail",
       points: [
         {
+          id: 4,
+          icon: <IoIosCheckmarkCircle />,
+          text: "Customize design ",
+          isAvailable: true,
+        },
+        {
           id: 1,
           icon: <IoIosCheckmarkCircle />,
-          text: "eCommerce Store",
+          text: "LMS, CRM, ERP",
           isAvailable: true,
         },
         {
           id: 2,
           icon: <IoIosCheckmarkCircle />,
-          text: "Blog Support Tools",
+          text: "Fintech, Edutech, Insurance",
           isAvailable: true,
         },
         {
           id: 3,
           icon: <IoIosCheckmarkCircle />,
-          text: "1,000's of Templates",
-          isAvailable: true,
-        },
-        {
-          id: 4,
-          icon: <IoIosCheckmarkCircle />,
-          text: "Drag & Drop Builder ",
+          text: "Healthcare, Service, Entertainment",
           isAvailable: true,
         },
       ],
@@ -290,7 +283,7 @@ export default function Package() {
               onClick={() => handlePricing("monthly")}
               aria-label="monthly"
             >
-              Monthly Plan
+              Digital Business Profile
             </button>
             <button
               className={state.active === "annual" ? "active" : ""}
@@ -298,7 +291,7 @@ export default function Package() {
               onClick={() => handlePricing("annual")}
               aria-label="annual"
             >
-              Annual Plan
+              Platform & Software{" "}
             </button>
           </Box>
         </Flex>
